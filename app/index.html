@@ -1,22 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <!-- font-awesome -->
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700"
       rel="stylesheet"
-      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
-    <title>Clear View Escapes</title>
-    <meta
-      name="keywords"
-      content="Travel planning, travel bundles, travel escapes, affordable travel"
-    />
-    <meta
-      name="description"
-      content="Your clarify. One trip away. We create soul restoring journeys that inspire you to be you."
-    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body></body>
+  <body>
+    <main>
+      <section class="container">
+        <div class="title">
+          <h2>our reviews</h2>
+          <div class="underline"></div>
+        </div>
+        <article class="review">
+          <div class="img-container">
+            <img
+              src="./assets/images/person/person-1.jpeg"
+              id="person-img"
+              alt=""
+            />
+          </div>
+          <h4 id="author">sara jones</h4>
+          <p id="job">ux designer</p>
+          <p id="info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            aliquid ad praesentium quos consequatur at obcaecati, nesciunt
+            mollitia laudantium sint laborum reprehenderit voluptatum dolores!
+            Corrupti obcaecati magnam voluptatibus sequi deleniti.
+          </p>
+          <div class="button-container">
+            <button class="btn prev-btn">
+              <i class="fas fa-chevron-left"></i></button
+            ><button class="btn next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <button class="btn random-btn">suprise me</button>
+        </article>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
 </html>
